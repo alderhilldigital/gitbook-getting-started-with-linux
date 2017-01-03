@@ -1,3 +1,10 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Free and Open Source Software](chapter1.md)
+* [Linux](linux.md)
+* [Command Line Essentials](command-line-essentials.md)
+* [Bash and Running Scripts](bash-and-running-scripts.md)
+* [Tools and Software](tools-and-software.md)
+* [Users, Permissions and Access](users-permissions-and-access.md)
+
