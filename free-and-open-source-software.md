@@ -6,9 +6,13 @@ Free and Open Source Software \(FOSS\) is software that has been created and the
 
 
 
+
+
 **Advantages and Disadvantages**
 
 This has the advantages of increasing collaboration, sharing knowledge and providing free available software to anyone with access to it. However, it can also make the regulation of the software difficult, which can affect it’s stability, security and usability.
+
+
 
 
 
