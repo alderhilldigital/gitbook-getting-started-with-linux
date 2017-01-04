@@ -21,7 +21,7 @@ Linux has a number of different graphical user interfaces \(GUI\) that enable th
 2. Download Virtual Box from [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads), install and open the application
 3. Start to create a new virtual machine and choose Linux as the type and Ubuntu as the version
 4. Continue using the default settings for the remaining options before finalising the new virtual machine
-5. Open the new virtual machine and select the Ubuntu media installation image file as the image to boot from
+5. Open the new virtual machine and select the Ubuntu media installation image file as the image from which to boot 
 6. Follow the installation process for Ubuntu
 
 **Documentation and Help**
