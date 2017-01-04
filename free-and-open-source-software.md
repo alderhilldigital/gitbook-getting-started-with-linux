@@ -4,11 +4,13 @@
 
 Free and Open Source Software \(FOSS\) is software that has been created and the creators of the software have made the code for the software publicly accessible. This allows anyone to see how the software was created. Depending on which open source license has been used, that person may add to, edit and redistribute the code as they desire. This ecosystem allows for the user to better understand how the software works, to adapt it to their needs and in making those changes available to others, the software can evolve. Generally speaking, Free Software can be used for commercial purposes where Open Source Software focuses on allowing access to the code for the use of development within the community.
 
-&nbsp;&lt;br/&gt;
+ 
 
 **Advantages and Disadvantages**
 
 This has the advantages of increasing collaboration, sharing knowledge and providing free available software to anyone with access to it. However, it can also make the regulation of the software difficult, which can affect it’s stability, security and usability.
+
+&nbsp;
 
 **Licensing and legal issues**
 
