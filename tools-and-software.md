@@ -12,9 +12,25 @@ Another package manager that runs on many different platforms and is used to ins
 
 With these package managers you will be able to install packages like php, ruby, python, .net, mysql, apache and thousands of other software packages.
 
+**Examples**
 
+The following examples will install mysql database server:
 
-Git
+Ubuntu & Debian
+
+`sudo apt-get install mysql-server`
+
+CentOS
+
+`sudo yum install mysql-server`
+
+Mac OSX
+
+`brew install mysql`
+
+**Git**
+
+One of the packages that can be installed using the package managers is git.
 
 ssh
 
