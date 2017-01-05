@@ -28,9 +28,7 @@ Mac OSX
 
 `brew install mysql`
 
-**Git**
 
-One of the packages that can be installed using the package managers is git.
 
 ssh
 
