@@ -7,5 +7,6 @@
 * [Bash and Running Scripts](bash-and-running-scripts.md)
 * [Tools and Software](tools-and-software.md)
     * [git](git.md)
+    * [ssh](ssh.md)
 * [Users, Permissions and Access](users-permissions-and-access.md)
 
