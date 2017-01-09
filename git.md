@@ -30,7 +30,7 @@ Once you have added some files to your repository, committed the files and added
 
 This will take all the files from the local copy of your repository  and push them to the remote copy called 'origin' and but them in a branch called 'master'.
 
-The remote repository can now be used by others. To get a copy of the repository a user will clone the repository to their local PC. 
+The remote repository can now be used by others. To get a copy of the repository a user will clone the repository to their local PC.
 
 `git clone https://github.com/user/repo.git`
 
@@ -44,5 +44,27 @@ This will try an pull down any changes to the git repository since the user last
 
 **Status and Conflict Resolution**
 
+The status command will give brief description of the differenced between the current working files and the files from the last commit. It will also include any files that have been added to the the directory but not added to the repository. These are known as untracked files. To make any new files tracked, the add command must be run.
 
+`git status`
+
+When a user commits a change to a file and tries to pull down from a remote repository where the same file has a conflict, git will highlight that a conflict has occurred. This conflict must be rectified before the user can push their changes.
+
+git will indicate the file with the conflict and in the file will have both sections of the file, where the conflict occurs, in sequence encapsulated by '&lt;&lt;&lt;&lt;&lt;&lt;&lt;' and '&gt;&gt;&gt;&gt;&gt;&gt;&gt;' and separated in the middle by '======='
+
+**Example**
+
+`<<<<<<< HEAD`
+
+`<td> hello world </td>`
+
+`=======`
+
+`<td> hello me </td>`
+
+` >>>>>>> new_change`
+
+To resolve the conflict, the user must remove the encapsulation lines and just leave the content they wish to retain.
+
+Once the conflict has been resolved, the file can be saved, committed and pushed to the remote repository.
 
