@@ -10,7 +10,7 @@ Open a new file called test.sh in a text editor
 
 Insert the following command into the file
 
-`#!/bin/bash  
+`#!/bin/bash    
 echo "Hello World!"`
 
 Exit and save by pressing Ctrl+x and Y for yes. The first line defines the system that should be used to execute the command. he second line just displays some text.
@@ -22,4 +22,13 @@ To run this script, it needs to executed. We can add execute permissions by runn
 The script can now be executed
 
 `./test.sh`
+
+Scripts can be used to call any shell commands which can in turn run other scripts for other languages.
+
+**Example**
+
+`#!/bin/bash    
+/usr/bin/python test.py`
+
+This script will in turn run a python script called test.py
 
