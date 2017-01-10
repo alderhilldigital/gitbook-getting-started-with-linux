@@ -14,9 +14,11 @@ Insert the following command into the file
 
 Exit and save by pressing Ctrl+x and Y for yes.
 
-To run this script, it needs to executed. We can add execute permissions by running the following command
+To run this script, it needs to executed. We can add execute permissions by running the following [chmod](https://nowthistechnology.gitbooks.io/command-line-essentials/content/chmod.html) command.
 
 `chmod +x test.sh`
 
+The script can now be executed
 
+`./test.sh`
 
