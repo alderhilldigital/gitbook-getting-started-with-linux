@@ -10,9 +10,10 @@ Open a new file called test.sh in a text editor
 
 Insert the following command into the file
 
-`echo "Hello World!"`
+`#!/bin/bash  
+echo "Hello World!"`
 
-Exit and save by pressing Ctrl+x and Y for yes.
+Exit and save by pressing Ctrl+x and Y for yes. The first line defines the system that should be used to execute the command. he second line just displays some text.
 
 To run this script, it needs to executed. We can add execute permissions by running the following [chmod](https://nowthistechnology.gitbooks.io/command-line-essentials/content/chmod.html) command.
 
