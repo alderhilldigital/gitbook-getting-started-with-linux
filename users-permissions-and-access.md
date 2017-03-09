@@ -16,7 +16,7 @@ To view these permissions we can use the 'ls' command which lists the content of
 
 **Example**
 
-`ls -l /home        
+`ls -l /home          
 -rwxrw-r-- 2 root admin 2045 9 Mar 2017 test.txt`
 
 Running the 'ls -l' command on the 'home' directory has listed the files and 10 pieces of information about each file.
@@ -75,7 +75,7 @@ This will set the permissions of 'test.txt' as follows
 
 ## Permission Shortcuts
 
-There are some command shortcuts that allow for permissions to be assigned without the need to know what permissions currently exist. There are characters assigned to owner, group and all users \(u,g,a\) that can have permissions added or substracted from them using the read, write execute characters \(r,w,x\).
+There are some command shortcuts that allow for permissions to be assigned without the need to know what permissions currently exist. There are characters assigned to owner, group and other users \(u,g,o\) that can have permissions added or substracted from them using the read, write execute characters \(r,w,x\).
 
 **Example**
 
@@ -91,13 +91,12 @@ Similarly, there are default groups created in linux and additional ones can be 
 
 **Example**
 
-`useradd John  
-passwd John  
------  
+\`useradd John
+
+## passwd John
+
 groupadd moderators  
-usermod -a -G  moderators John`
+usermod -a -G  moderators John\`
 
 In this example a new user called 'John' was added and the password was set. A group called 'moderators' was added and the user'John' was added to that group.
-
-
 
