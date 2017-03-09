@@ -16,7 +16,7 @@ To view these permissions we can use the 'ls' command which lists the content of
 
 **Example**
 
-`ls -l /home      
+`ls -l /home        
 -rwxrw-r-- 2 root admin 2045 9 Mar 2017 test.txt`
 
 Running the 'ls -l' command on the 'home' directory has listed the files and 10 pieces of information about each file.
@@ -83,9 +83,21 @@ There are some command shortcuts that allow for permissions to be assigned witho
 
 This will add write permissions to the group for the 'text.txt'.
 
-## Managing Users
+## Managing Users and Groups
 
+Linux based systems will have a root user setup by default. Additional users can be added by using the 'useradd' command. Once a user has been added a password can be set using the 'passwd' command. A user can be removed using the 'userdel' command.  It is also useful to use the '-l' flag with the 'userdel' command to removed the users home directory and files.
 
+Similarly, there are default groups created in linux and additional ones can be added by using the 'groupadd' command. Users can be added to a group using the 'usermod' command.
+
+**Example**
+
+`useradd John  
+passwd John  
+-----  
+groupadd moderators  
+usermod -a -G  moderators John`
+
+In this example a new user called 'John' was added and the password was set. A group called 'moderators' was added and the user'John' was added to that group.
 
 
 
