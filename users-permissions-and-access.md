@@ -16,7 +16,7 @@ To view these permissions we can use the 'ls' command which lists the content of
 
 **Example**
 
-`ls -l /home    
+`ls -l /home      
 -rwxrw-r-- 2 root admin 2045 9 Mar 2017 test.txt`
 
 Running the 'ls -l' command on the 'home' directory has listed the files and 10 pieces of information about each file.
@@ -73,8 +73,6 @@ This will set the permissions of 'test.txt' as follows
 | 5 | r-x | Read and execute for group |
 | 0 | --- | No permissions for all other users |
 
-
-
 ## Permission Shortcuts
 
 There are some command shortcuts that allow for permissions to be assigned without the need to know what permissions currently exist. There are characters assigned to owner, group and all users \(u,g,a\) that can have permissions added or substracted from them using the read, write execute characters \(r,w,x\).
@@ -84,6 +82,10 @@ There are some command shortcuts that allow for permissions to be assigned witho
 `chmod g+w test.txt`
 
 This will add write permissions to the group for the 'text.txt'.
+
+## Managing Users
+
+
 
 
 
