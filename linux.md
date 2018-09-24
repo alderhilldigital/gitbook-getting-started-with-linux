@@ -28,3 +28,22 @@ Linux has a number of different graphical user interfaces \(GUI\) that enable th
 
 As with most software, Linux has documentation that you can use to understand what particular commands do and how they can be used. To access this documentation or "manual" we use the "man" command. This gives a full description of what the command does, the parameters that are required to be passed to it and the options that the user can choose when executing the command. Most commands will also have a brief usage description that can be accessed using the --help option when running the command.
 
+
+
+**Exercise**
+
+1. Download and install Virtual Box from the link above.
+2. Download the ISO file of the latest Ubuntu release from the link above.
+3. Open virtual box and start creating a new virtual machine
+4. Name the VM, choose linux type and 64bit version of Ubuntu
+5. Keep the default memory and hard drive size settings and create the VM
+6. For the new VM right click and choose settings and navigate to the storage section
+7. Under 'Controller IDE' add a new optical disk
+8. Select the Ubuntu ISO file that was downloaded
+9. Start the VM and follow the Ubuntu installation wizard with default settings where possible
+10. Once the installation is complete, restart the VM and log in
+
+
+
+
+
