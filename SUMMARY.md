@@ -15,5 +15,8 @@
   * [Exercise 2 \(git\)](exercise-2-git.md)
 * [Bash and Running Scripts](bash-and-running-scripts.md)
 * [Exercise \(Bash Scripts\)](exercise-bash-scripts.md)
+* [Services](/services.md)
 * [Users, Permissions and Access](users-permissions-and-access.md)
+
+
 
