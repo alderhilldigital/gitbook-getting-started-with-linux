@@ -16,6 +16,7 @@
 * [Bash and Running Scripts](bash-and-running-scripts.md)
 * [Exercise \(Bash Scripts\)](exercise-bash-scripts.md)
 * [Services](/services.md)
+  * [Exercise \(Services\)](/services/exercise-services.md)
 * [Users, Permissions and Access](users-permissions-and-access.md)
 
 
